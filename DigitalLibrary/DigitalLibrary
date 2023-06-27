@@ -18,7 +18,7 @@ public class DigitalLibrary {
 
         int choice;
         do {
-            System.out.println("Library Management System");
+            System.out.println("Digital Library");
             System.out.println("1. Add Book");
             System.out.println("2. Add Magazine");
             System.out.println("3. Order Book");
