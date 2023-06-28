@@ -48,7 +48,7 @@ public class OnlineExamForm {
         System.out.println("\n Exam Starts in: ");
         int seconds = 5;
         while (seconds >= 0) {
-            System.out.print("\r" + seconds + " seconds remaining"); // Print timer on the right side
+            System.out.print("\r" + seconds + " seconds remaining"); 
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
